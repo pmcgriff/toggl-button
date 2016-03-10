@@ -388,10 +388,30 @@ only screen and (min-resolution: 192dpi) {
 
 /********* REDBOOTH *********/
 .toggl-button.redbooth {
-  font-size: 12px;
+  /*font-size: 12px;
   line-height: 16px;
-  padding-left: 18px;
+  padding-left: 18px;*/
   background-size: 16px;
+  padding-left: 20px;
+  font-size: 13px;
+  line-height: 39px;
+  height: 39px;
+  background-position: left center;
+}
+
+.form-cb-attach-zone {
+  display: inline-block;
+}
+
+.js-active-tasks-container .toggl-button.redbooth {
+  height: inherit;
+  line-height: inherit;
+  font-size: 11px;
+  padding-left: 18px;
+}
+
+.tb-meta-components-item .button .button-inner-text {
+  font-size: 11px;
 }
 
 /********* WORKSECTION *********/
